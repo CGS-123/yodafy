@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YDLandingViewController">
+            <connections>
+                <outlet property="resultsLabel" destination="ax3-lB-qnk" id="Zt5-Ns-a1g"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="yodafyMeButton" destination="KDC-V8-9oJ" id="s69-qn-5vd"/>
+                <outlet property="yodafyTextField" destination="ihU-rK-Tq6" id="Flv-gk-rgA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ihU-rK-Tq6">
+                    <rect key="frame" x="127" y="192" width="347" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="347" id="8VE-Wb-QA1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yodafy your sentence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6Z-NO-FjB">
+                    <rect key="frame" x="217" y="115" width="166" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ax3-lB-qnk">
+                    <rect key="frame" x="142" y="313" width="317" height="182"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="182" id="log-Ml-Vf6"/>
+                        <constraint firstAttribute="width" constant="317" id="n4E-uc-bwB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDC-V8-9oJ">
+                    <rect key="frame" x="205" y="245" width="191" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.97647058819999999" green="0.1647058824" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="191" id="xC7-bA-Vf4"/>
+                    </constraints>
+                    <state key="normal" title="Yodafy me!">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="yodafyMeButtonWasTouched:" destination="-1" eventType="touchUpInside" id="MAC-RC-3zf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.59592663219999997" green="1" blue="0.63109439180000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="a6Z-NO-FjB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="115" id="ENX-es-TCU"/>
+                <constraint firstItem="ax3-lB-qnk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Mqm-BF-ZIU"/>
+                <constraint firstItem="KDC-V8-9oJ" firstAttribute="top" secondItem="ihU-rK-Tq6" secondAttribute="bottom" constant="23" id="QHv-bF-Exo"/>
+                <constraint firstItem="ax3-lB-qnk" firstAttribute="top" secondItem="KDC-V8-9oJ" secondAttribute="bottom" constant="38" id="gn6-tr-qha"/>
+                <constraint firstItem="ihU-rK-Tq6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-93" id="h5D-eH-tC2"/>
+                <constraint firstItem="a6Z-NO-FjB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pj2-SF-KM6"/>
+                <constraint firstItem="KDC-V8-9oJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ri9-XU-z5x"/>
+                <constraint firstItem="ihU-rK-Tq6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="urs-bI-C7b"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		AFFA86151BD05F640083CFF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA86141BD05F640083CFF1 /* main.m */; };
 		AFFA86181BD05F640083CFF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA86171BD05F640083CFF1 /* AppDelegate.m */; };
-		AFFA861B1BD05F640083CFF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA861A1BD05F640083CFF1 /* ViewController.m */; };
-		AFFA861E1BD05F640083CFF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFA861C1BD05F640083CFF1 /* Main.storyboard */; };
 		AFFA86201BD05F640083CFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFA861F1BD05F640083CFF1 /* Assets.xcassets */; };
 		AFFA86231BD05F640083CFF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFA86211BD05F640083CFF1 /* LaunchScreen.storyboard */; };
 		AFFA862E1BD05F640083CFF1 /* yodafyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA862D1BD05F640083CFF1 /* yodafyTests.m */; };
 		AFFA86391BD05F640083CFF1 /* yodafyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA86381BD05F640083CFF1 /* yodafyUITests.m */; };
+		AFFA86491BD05FFE0083CFF1 /* YDLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA86471BD05FFE0083CFF1 /* YDLandingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AFFA864A1BD05FFE0083CFF1 /* YDLandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFA86481BD05FFE0083CFF1 /* YDLandingViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		AFFA864D1BD064020083CFF1 /* YDNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA864C1BD064020083CFF1 /* YDNetworkClient.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,6 @@
 		AFFA86141BD05F640083CFF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFFA86161BD05F640083CFF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFFA86171BD05F640083CFF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AFFA86191BD05F640083CFF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AFFA861A1BD05F640083CFF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AFFA861D1BD05F640083CFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFFA861F1BD05F640083CFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFFA86221BD05F640083CFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFFA86241BD05F640083CFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,11 @@
 		AFFA86341BD05F640083CFF1 /* yodafyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yodafyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFA86381BD05F640083CFF1 /* yodafyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yodafyUITests.m; sourceTree = "<group>"; };
 		AFFA863A1BD05F640083CFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFA86461BD05FFE0083CFF1 /* YDLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLandingViewController.h; sourceTree = "<group>"; };
+		AFFA86471BD05FFE0083CFF1 /* YDLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLandingViewController.m; sourceTree = "<group>"; };
+		AFFA86481BD05FFE0083CFF1 /* YDLandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YDLandingViewController.xib; sourceTree = "<group>"; };
+		AFFA864B1BD064020083CFF1 /* YDNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetworkClient.h; sourceTree = "<group>"; };
+		AFFA864C1BD064020083CFF1 /* YDNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNetworkClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +106,15 @@
 			children = (
 				AFFA86161BD05F640083CFF1 /* AppDelegate.h */,
 				AFFA86171BD05F640083CFF1 /* AppDelegate.m */,
-				AFFA86191BD05F640083CFF1 /* ViewController.h */,
-				AFFA861A1BD05F640083CFF1 /* ViewController.m */,
-				AFFA861C1BD05F640083CFF1 /* Main.storyboard */,
 				AFFA861F1BD05F640083CFF1 /* Assets.xcassets */,
 				AFFA86211BD05F640083CFF1 /* LaunchScreen.storyboard */,
 				AFFA86241BD05F640083CFF1 /* Info.plist */,
 				AFFA86131BD05F640083CFF1 /* Supporting Files */,
+				AFFA86461BD05FFE0083CFF1 /* YDLandingViewController.h */,
+				AFFA86471BD05FFE0083CFF1 /* YDLandingViewController.m */,
+				AFFA86481BD05FFE0083CFF1 /* YDLandingViewController.xib */,
+				AFFA864B1BD064020083CFF1 /* YDNetworkClient.h */,
+				AFFA864C1BD064020083CFF1 /* YDNetworkClient.m */,
 			);
 			path = yodafy;
 			sourceTree = "<group>";
@@ -244,8 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFFA86231BD05F640083CFF1 /* LaunchScreen.storyboard in Resources */,
+				AFFA864A1BD05FFE0083CFF1 /* YDLandingViewController.xib in Resources */,
 				AFFA86201BD05F640083CFF1 /* Assets.xcassets in Resources */,
-				AFFA861E1BD05F640083CFF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFFA861B1BD05F640083CFF1 /* ViewController.m in Sources */,
 				AFFA86181BD05F640083CFF1 /* AppDelegate.m in Sources */,
 				AFFA86151BD05F640083CFF1 /* main.m in Sources */,
+				AFFA864D1BD064020083CFF1 /* YDNetworkClient.m in Sources */,
+				AFFA86491BD05FFE0083CFF1 /* YDLandingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +314,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AFFA861C1BD05F640083CFF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFFA861D1BD05F640083CFF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AFFA86211BD05F640083CFF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yodafy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = csmith.intrepid.io.yodafy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yodafy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = csmith.intrepid.io.yodafy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +496,7 @@
 				AFFA863F1BD05F640083CFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA86401BD05F640083CFF1 /* Build configuration list for PBXNativeTarget "yodafyTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				AFFA86421BD05F640083CFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA86431BD05F640083CFF1 /* Build configuration list for PBXNativeTarget "yodafyUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				AFFA86451BD05F640083CFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

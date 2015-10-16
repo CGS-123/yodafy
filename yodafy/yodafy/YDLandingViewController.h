@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YDLandingViewController.h
 //  yodafy
 //
 //  Created by Colin Smith on 10/15/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YDLandingViewController : UIViewController
 
 @end
-
